@@ -650,9 +650,25 @@ bool MOSIPP::_SolDomCheck(basic::CostVector& f) {
 };
 
 void MOSIPP::_AddSols(Label& l) {
+
+  // filter sol, not necessary in this impl.
+  std::vector<long> new_sol_id;
+  for (auto lid : _sol_label_ids){
+    if (EpsDominance(l.g, _label[lid].g)) {
+      continue;
+    }else{
+      new_sol_id.push_back(lid);
+    }
+  }
+  if (new_sol_id.size() < _sol_label_ids.size()) {
+    _sol_label_ids = new_sol_id;
+  }
+
+  // add sol
   _sol_label_ids.push_back(l.id);
   return ;
 };
+
 
 void MOSIPP::_PostProcRes() {
   // ### post-process the results ###
