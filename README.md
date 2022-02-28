@@ -2,6 +2,8 @@
 
 C++ Implementation of Multi-Objective Safe-Interval Path Planning
 
+The code is distributed for academic and non-commercial use.
+
 ## Papers and Documentation
 
 (come out soon)
@@ -25,4 +27,3 @@ C++ Implementation of Multi-Objective Safe-Interval Path Planning
 ### Notes
 
 - The file test_mosipp.cpp provides a toy example about how to use the code (declare graphs and costs, invoke the planner, get the result).
-
