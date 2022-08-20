@@ -4,7 +4,11 @@ C++ Implementation of Multi-Objective Safe-Interval Path Planning
 
 The code is distributed for academic and non-commercial use. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-<img src="https://github.com/wonderren/wonderren.github.io/blob/master/images/fig_mosipp.gif" alt="" width="300" height="300" align="center" hspace="20" style=" border: #000000 2px none;">
+<p align="center">
+<img src="https://github.com/wonderren/wonderren.github.io/blob/master/images/fig_mosipp.gif" alt="" hspace="15" style=" border: #FFFFFF 2px none;">
+</p>
+
+(Fig 1: A visualization of a set of Pareto-optimal collision-free paths for the robot (red dot) among both static and dynamic obstacles moving along known trajectories. Green circles are areas with communication and moving outside incurs a large penalty cost. The robot needs to arrive early while minimizing the communication penalty cost.)
 
 ## Usage
 
